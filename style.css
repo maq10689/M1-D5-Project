@@ -27,34 +27,61 @@
     
   }
 
-  .sql{
-    
-        position: absolute;
-        top: 80px;
-        width: 140px;
-        height: 100px;
-        left: 730px;
-  }
-
-
-
 .word{
-    
     position: absolute;
     top: 68px;
-    width: 160px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     left: 1060px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
 }
-
+  .word:hover {
+  transition-duration: 0.5s;
+  box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+  }
+  .word:hover .word {
+  transform: translateX(0px);
+  }
 .excel{
-    
     position: absolute;
     top: 200px;
-    width: 140px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     left: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
 }
+
+.excel:hover {
+transition-duration: 0.5s;
+box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+}
+.excel:hover .excel {
+transform: translateX(0px);
+}
+.powerpoint{
+  position: absolute;
+  top: 80px;
+  width: 120px;
+  height: 120px;
+  left: 722px;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: box-shadow 0.3s;
+}
+
+.powerpoint:hover {
+transition-duration: 0.5s;
+box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+}
+.powerpoint:hover .powerpoint {
+transform: translateX(0px);
+}
+
+
 
   .workexper{
     margin-top: -22px;
@@ -68,7 +95,7 @@
   .workexperposition{
     position: relative;
     left: 600px;
-    top: 0px;
+    top: 42px;
   }
 #Navigation {
 
@@ -82,7 +109,7 @@ background-color: white;
 padding-left: 10px;
 }
 
-.computerimg {
+.myimg {
 position: relative;
 top: 50px;
 width: 500px;
@@ -93,14 +120,14 @@ overflow: hidden;
 transition: box-shadow 0.3s;
 }
 
-.computerimg:hover {
+.myimg:hover {
 transition-duration: 0.5s;
 box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
 }
 
 
 
-.computerimg:hover .computerimg {
+.myimg:hover .myimg {
 transform: translateX(0px);
 }
 .introtext{
