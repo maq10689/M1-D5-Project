@@ -1,3 +1,7 @@
+.body{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .heading{
     padding-left: 10px;
     
@@ -6,17 +10,73 @@
  .introduction{
    position: relative;
     color: black;
-    height: 800px;
+    height: 600px;
     background: rgb(159,159,159);
     background: linear-gradient(124deg, rgba(159,159,159,1) 0%, rgba(255,255,255,1) 50%);
    
  }
+
+ .education{
+    padding-left: 10px;
+    margin-top: -22px;
+    position: relative;
+     color: black;
+     height: 360px;
+     background: rgb(159,159,159);
+     background: linear-gradient(124deg, rgba(159,159,159,1) 0%, rgba(255,255,255,1) 50%);
+    
+  }
+
+  .sql{
+    
+        position: absolute;
+        top: 80px;
+        width: 140px;
+        height: 100px;
+        left: 730px;
+  }
+
+
+
+.word{
+    
+    position: absolute;
+    top: 68px;
+    width: 160px;
+    height: 100px;
+    left: 1060px;
+}
+
+.excel{
+    
+    position: absolute;
+    top: 200px;
+    width: 140px;
+    height: 100px;
+    left: 900px;
+}
+
+  .workexper{
+    margin-top: -22px;
+    position: relative;
+     color: black;
+     height: 700px;
+     background: rgb(159,159,159);
+     background: linear-gradient(124deg, rgba(159,159,159,1) 0%, rgba(255,255,255,1) 50%);
+    
+  }
+  .workexperposition{
+    position: relative;
+    left: 600px;
+    top: 0px;
+  }
 #Navigation {
 
 padding-left: 0%;
-color: black;
+color: rgb(134, 116, 116)10, 101, 101;
 margin-top: 0%;
 margin-left: -1%;
+background-color: white;
 }
 .space{
 padding-left: 10px;
@@ -46,9 +106,37 @@ transform: translateX(0px);
 .introtext{
    position: relative;
    top: -400px;
-   left: 900px;
+   left: 720px;
    
 }
+
+.sqlimg {
+    position: absolute;
+    top: 50px;
+    width: 455px;
+    height: 450px;
+    left: 70px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+    }
+    
+    .sqlimg:hover {
+    transition-duration: 0.5s;
+    box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+    }
+    
+    
+    
+    .sqlimg:hover .sqlimg {
+    transform: translateX(0px);
+    }
+    .introtext{
+       position: relative;
+       top: -400px;
+       left: 720px;
+       
+    }
 
 .introparagraph{
     position: relative;
