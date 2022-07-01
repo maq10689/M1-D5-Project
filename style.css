@@ -1,0 +1,58 @@
+.heading{
+    padding-left: 10px;
+    
+ }
+
+ .introduction{
+   position: relative;
+    color: black;
+    height: 800px;
+    background: rgb(159,159,159);
+    background: linear-gradient(124deg, rgba(159,159,159,1) 0%, rgba(255,255,255,1) 50%);
+   
+ }
+#Navigation {
+
+padding-left: 0%;
+color: black;
+margin-top: 0%;
+margin-left: -1%;
+}
+.space{
+padding-left: 10px;
+}
+
+.computerimg {
+position: relative;
+top: 50px;
+width: 500px;
+height: 450px;
+left: 70px;
+border-radius: 20px;
+overflow: hidden;
+transition: box-shadow 0.3s;
+}
+
+.computerimg:hover {
+transition-duration: 0.5s;
+box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
+}
+
+
+
+.computerimg:hover .computerimg {
+transform: translateX(0px);
+}
+.introtext{
+   position: relative;
+   top: -400px;
+   left: 900px;
+   
+}
+
+.introparagraph{
+    position: relative;
+    top: -400px;
+    left: 700px;
+    
+ }
