@@ -27,12 +27,24 @@
     
   }
 
+  .contact{
+    padding-left: 10px;
+    margin-left: 14px;
+    margin-top: -23px;
+    position: relative;
+     color: black;
+     height: 130px;
+     background: rgb(159,159,159);
+     background: linear-gradient(124deg, rgba(159,159,159,1) 0%, rgba(255,255,255,1) 50%);
+    
+  }
+
 .word{
     position: absolute;
     top: 68px;
     width: 120px;
     height: 120px;
-    left: 1060px;
+    left: 1130px;
     border-radius: 20px;
     overflow: hidden;
     transition: box-shadow 0.3s;
@@ -49,7 +61,7 @@
     top: 200px;
     width: 120px;
     height: 120px;
-    left: 900px;
+    left: 980px;
     border-radius: 20px;
     overflow: hidden;
     transition: box-shadow 0.3s;
@@ -67,7 +79,7 @@ transform: translateX(0px);
   top: 80px;
   width: 120px;
   height: 120px;
-  left: 722px;
+  left: 795px;
   border-radius: 20px;
   overflow: hidden;
   transition: box-shadow 0.3s;
@@ -87,10 +99,9 @@ transform: translateX(0px);
     margin-top: -22px;
     position: relative;
      color: black;
-     height: 700px;
+     height: 550px;
      background: rgb(159,159,159);
      background: linear-gradient(124deg, rgba(159,159,159,1) 0%, rgba(255,255,255,1) 50%);
-    
   }
   .workexperposition{
     position: relative;
@@ -98,7 +109,6 @@ transform: translateX(0px);
     top: 42px;
   }
 #Navigation {
-
 padding-left: 0%;
 color: rgb(134, 116, 116)10, 101, 101;
 margin-top: 0%;
@@ -124,7 +134,36 @@ transition: box-shadow 0.3s;
 transition-duration: 0.5s;
 box-shadow: 0 10px 40px -4px rgb(0 0 0 / 55%);
 }
+.annicomp {
+  color:white;
+  text-align: center;
+  position:absolute;
+  padding-top: 6px;
+  width: 100px;
+  height:40px;
+  background-color: black;
+  border-radius:20px;
+  top:20px;
+   right:20px;
+   transform: translateY(-70px);
+   transition: transform 1s linear;
 
+}
+.myimg:hover .annicomp {
+   
+  transform: translateY(0px);
+}
+
+
+.myimg__annicomp {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 40%);
+}
 
 
 .myimg:hover .myimg {
@@ -136,6 +175,7 @@ transform: translateX(0px);
    left: 720px;
    
 }
+
 
 .sqlimg {
     position: absolute;
